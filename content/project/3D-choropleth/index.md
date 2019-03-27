@@ -1,12 +1,12 @@
 +++
 # Project title.
-title = "3D Choropleths with Mapdeck"
+title = "Comparative Thematic Mapping with Mapdeck"
 
 # Date this page was created.
-date = 2019-02-25T00:00:00
+date = 2019-03-25T00:00:00
 
 # Project summary to display on homepage.
-summary = "Explore electricity and latrine access data from the Indian Census"
+summary = "Compare mapping styles like a choropleth, dot density map, proportional symbols map, and 3D choropleth using Indian electricity and latrine access data"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
@@ -27,7 +27,7 @@ external_link = ""
 url_pdf = ""
 url_slides = ""
 url_code = ""
-url_custom = [{name = "App", url = "https://seanangio.shinyapps.io/3D_choropleth/"},
+url_custom = [{name = "App", url = "https://seanangio.shinyapps.io/thematic_mapping/"},
               {name = "GitHub", url = "https://github.com/seanangio/in_household"}]
 
 
@@ -49,8 +49,26 @@ url_custom = [{name = "App", url = "https://seanangio.shinyapps.io/3D_choropleth
   preview_only = true
 +++
 
-The app linked below is a work in progress. It visualizes 1991-2011 Indian census data of Household Access to Electricity and Latrines through a 3D choropleth. By mapping the number of households to polygon elevation, the 3D choropleth provides a way of communicating the vast differences in population sizes, while also representing the percentage in each district.
+The app linked below uses the {mapdeck} library to compare common thematic mapping styles using Indian electricity and latrine access data. These styles include a choropleth, a dot density map, a proportional symbols map, and a 3D choropleth.
 
-**https://seanangio.shinyapps.io/3D_choropleth/**
+**https://seanangio.shinyapps.io/thematic_mapping/**
 
-![](3D_choropleth.gif)
+A choropleth gives the simplest view of the spatial distribution of a standardized rate, but conceals the vastly-different underlying population counts.
+
+##### Choropleth of Indian household electricity access (1991-2011)
+![](electricity.gif)
+
+A dot density map provides a method to spatially visualize clusters of a raw count, while sacrificing the ability to retrieve numeric data.
+
+##### Dot density map comparing urban and rural households having access to both electricity and latrines (2011)
+![](both_neither.gif)
+
+A proportional symbols map can communicate both a standardized rate and a raw count through the color and size aesthetics, yet congestion is often a dilemma.
+
+##### Proportional symbols map depicting household latrine access (1991-2011)
+![](latrines.gif)
+
+A 3D choropleth can map a rate and a raw count, while preserving the original geographic shapes, but at the cost of visual clarity.
+
+##### 2011 households having access to neither electricity nor a latrine
+![](neither3d.gif)
