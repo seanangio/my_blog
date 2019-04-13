@@ -1,16 +1,16 @@
 +++
 # Project title.
-title = "Supervised Learning: Exercise Classification"
+title = "Comparing Fuel Efficiency via Linear Regression"
 
 # Date this page was created.
-date = 2017-12-17T00:00:00
+date = 2017-11-23T00:00:00
 
 # Project summary to display on homepage.
-summary = "Exploring the effectiveness of different ML models to classify motion data into exercise categories"
+summary = "Using linear regression models to quantify the difference in fuel efficiency among automatic and manual transmission cars"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["caret", "ML"]
+tags = ["regression", "mtcars"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -28,8 +28,8 @@ url_pdf = ""
 url_slides = ""
 url_video = ""
 url_code = ""
-url_custom = [{name = "Report", url = "https://rpubs.com/seanangio/exercises_classification"},
-              {name = "GitHub", url = "https://github.com/seanangio/JHU_Data_Science/tree/master/8_Practical_Machine_Learning"}]
+url_custom = [{name = "Report", url = "https://rpubs.com/seanangio/mtcars"},
+              {name = "GitHub", url = "https://github.com/seanangio/JHU_Data_Science/tree/master/7_Regression_Models"}]
 
 
 # Custom links (optional).
@@ -50,8 +50,8 @@ url_custom = [{name = "Report", url = "https://rpubs.com/seanangio/exercises_cla
   preview_only = true
 +++
 
-The final project for the Practical Machine Learning course of the Data Science Specialization on Coursera from Johns Hopkins University is to use supervised learning techniques to classify repetitions of physical exercises based on the manner in which the motion was completed using accelerometer, gyroscope and magnetometer data. 
+The final project for the Linear Regression course of the Data Science Specialization on Coursera from Johns Hopkins University is to assess whether cars with a manual transmission have better fuel efficiency than those with an automatic transmission using only linear regression techniques. The report below attempts to quantify this difference using a variety of linear models.
 
-**https://rpubs.com/seanangio/exercises_classification**
+**https://rpubs.com/seanangio/mtcars**
 
 ![](featured.png)
