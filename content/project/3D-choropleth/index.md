@@ -27,7 +27,7 @@ external_link = ""
 url_pdf = ""
 url_slides = ""
 url_code = ""
-url_custom = [{name = "App", url = "https://seanangio.shinyapps.io/thematic_mapping/"},
+url_custom = [{name = "App", url = "https://shiny.socialcops.com/thematic_mapping/"},
               {name = "GitHub", url = "https://github.com/seanangio/in_household"}]
 
 
@@ -51,7 +51,9 @@ url_custom = [{name = "App", url = "https://seanangio.shinyapps.io/thematic_mapp
 
 The app linked below uses the {mapdeck} library to compare common thematic mapping styles using Indian electricity and latrine access data. These styles include a choropleth, a dot density map, a proportional symbols map, and a 3D choropleth.
 
-**https://seanangio.shinyapps.io/thematic_mapping/**
+**https://shiny.socialcops.com/thematic_mapping/**
+
+A brief summary of pros and cons of these thematic maps is below. For a fuller treatment, please see my [SocialCops blog post](https://blog.socialcops.com/technology/data-science/comparative-thematic-mapping/) on this topic.
 
 A choropleth gives the simplest view of the spatial distribution of a standardized rate, but conceals the vastly-different underlying population counts.
 
