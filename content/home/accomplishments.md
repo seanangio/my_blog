@@ -20,6 +20,14 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
+  title = "SQL Fundamentals Track"
+  organization = "DataCamp"
+  certificate_url = "https://www.datacamp.com/statement-of-accomplishment/track/261eb6dc0e6c53e8e5a3b1c9b54f4df63b99e601"
+  date_start = "2019-05-28"
+  date_end = ""
+  description = ""
+  
+[[item]]
   title = "Introduction to Scripting in Python Specialization"
   organization = "Rice University, Coursera"
   certificate_url = "https://www.coursera.org/account/accomplishments/specialization/V9AD3N72RBLF"
